@@ -1,4 +1,4 @@
-#Start Cadence server
+# Start Cadence server
 
 To start a Cadence server instance locally, run the following
 
@@ -14,7 +14,7 @@ It will start Cadence itself (service + web page), along with a Cassandra instan
 
 To open the Cadence web page, go to `localhost:8088`.
 
-#Register Cadence domain
+# Register Cadence domain
  
 Cadence has a cli docker image hosted on DockerHub.
 
@@ -28,7 +28,7 @@ docker run --rm ubercadence/cli:master --address host.docker.internal:7933 --dom
 
 A Cadence domain acts like a namespace for workflows.
 
-#Start the worker server
+# Start the worker server
 
 To start the worker server (i.e. the go server in this repository), run 
 
